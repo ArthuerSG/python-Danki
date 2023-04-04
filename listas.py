@@ -45,10 +45,22 @@ print(lista1)
 lista2 = [1, 5, 9, 11, 15]
 print(lista2)
 
-# index     0        1        2  
-lista3 = ['Nome', 'Nome2', 'Nome']
+# index     0         1          2         3         4         5
+lista3 = ['gato', 'cachorro', 'peixe', 'cavalo', 'tubarão', 'girafa']
 
 print(len(lista3))
+
+print(type(lista3))
+print(lista[1])
+
+lista[1] = 'cavalo'
+print(lista)
+
+lista[1:4] = ['águia', 'morcego', 'elefante']
+print(lista)
+
+lista[1:2] = ['águia', 'elefante']
+print(lista)
 
 # Tamanho da lista - função len
 print(len(lista1))
@@ -63,3 +75,22 @@ print(x)
 print(max(lista2))  # Retorna o elemento de valor máximo da lista
 
 print(min(lista1))  # Retorna o elemento de valor mínimu da lista
+
+
+nome = "Curso de Python"
+valor = range(10)
+
+print(nome)
+print(valor)
+
+lista7 = list(range(10))
+print(lista7)
+
+lista8 = list("Curso de Python")
+print(lista8)
+
+elemento = 8
+
+if elemento in lista7:
+    print("Este elemento está dentro da lista")
+
